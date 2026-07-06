@@ -173,10 +173,10 @@ function CreatorOnboarding() {
     "Join thousands of creators earning from real performance.",
     "Your profile is how brands discover and trust you.",
     "Pick every language you create in.",
-    "Choose up to 6 categories — these power your campaign matches.",
+    "Here leave the ones that havent connected yet as coming soon",
     "We'd love to know how you found us.",
     "Choose a payout method. You can change this anytime.",
-    "Connect at least one to start receiving brand briefs.",
+    "Here leave the ones that havent connected yet as coming soon",
     "",
     "",
   ];

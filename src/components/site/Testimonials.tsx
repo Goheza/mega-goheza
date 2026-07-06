@@ -124,7 +124,7 @@ function BrandsTestimonials() {
               Backed by <span className="text-gradient-primary">Top Investors</span>.
             </>
           }
-          sub="From fast-growing startups to established marketing teams, brands use Goheza to eliminate retainers and unlock measurable creator performance."
+          sub="From fast-growing startups to established marketing teams, brands use Goheza to eliminate retainers and unlock performance based pay"
         />
 
         <div ref={gridRef} className="reveal-scale mt-12 grid gap-4 sm:gap-6">

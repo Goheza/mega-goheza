@@ -7,10 +7,10 @@ export const Route = createFileRoute("/creator/how-it-works")({
 });
 
 const steps = [
-  { icon: Sparkles, title: "Discover Campaigns", body: "Browse active briefs from brands you'd actually post about — filter by niche, payout, and platform." },
-  { icon: FileVideo, title: "Submit Content", body: "Create on your terms, attach a caption, and send your video in for review — all from one dashboard." },
+  { icon: Sparkles, title: "Discover Campaigns", body: "Browse active campaigns from brands you'd actually post about, filter by niche, payout, and Platform." },
+  { icon: FileVideo, title: "Submit Content", body: "Create in your own style, attach a caption, and send it in for review, all from one place." },
   { icon: CheckCircle2, title: "Get Approved", body: "Brands review and approve your content. You get clear feedback and a green light to post." },
-  { icon: DollarSign, title: "Earn Per 1,000 Views", body: "Your content earns continuously based on real views. Transparent rates, fast payouts." },
+  { icon: DollarSign, title: "Earn Per 1,000 Views", body: "Once you hav e posted, your content earns continuously based on real views. Transparent rates, fast payouts." },
 ];
 
 function HowItWorksPage() {

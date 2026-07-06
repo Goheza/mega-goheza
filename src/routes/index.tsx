@@ -14,12 +14,13 @@ import { ArrowRight } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Goheza — Performance marketing, powered by creators" },
+      { title: "Goheza - Performance marketing, powered by creators" },
       {
         name: "description",
         content:
           "Launch creator campaigns that pay for outcomes — installs, sales, and signups. Or earn as a creator on transparent, performance-based payouts.",
       },
+      
     ],
   }),
   component: Index,
@@ -70,11 +71,11 @@ function DarkCta() {
   const head =
     audience === "brands"
       ? "Spend less on retainers. Pay only when campaigns deliver."
-      : "Create on your terms. Get paid for the results you drive.";
+      : "Create in our style. Get paid for the results you drive";
   const sub =
     audience === "brands"
       ? "Goheza turns creators into your highest-performing acquisition channel."
-      : "Join thousands of creators earning from briefs that match your niche.";
+      : "Join thousands of creators earning from campaigns that match your niche.";
 
   return (
     <section id="cta" className="section-dark relative overflow-hidden py-20 sm:py-28">

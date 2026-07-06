@@ -23,8 +23,8 @@ export function SectionCta({
   const label = audience === "brands" ? "Launch My Campaign" : "Start Earning Today";
   const trust =
     audience === "brands"
-      ? "Trusted by leading brands and 50,000+ creators"
-      : "Trusted by 50k+ Creators";
+      ? "Trusted by leading brands and 1,000+ creators"
+      : "Trusted by 1,000+ Creators";
 
   return (
     <div ref={ref} className="reveal mt-12 flex flex-col items-center text-center">

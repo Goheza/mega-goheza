@@ -20,7 +20,7 @@ const stepsByAudience: Record<Audience, { heading: React.ReactNode; sub: string;
     sub: "Launch creator campaigns, approve content, and only pay for performance.",
     cta: "Launch My Campaign",
     steps: [
-      { title: "Launch Campaigns", body: "Brief your goals, assets, dos & don'ts, and budget — your campaign goes live to vetted creators in minutes.", icon: Megaphone, tone: "orange" },
+      { title: "Launch Campaigns", body: "Define your goals, assets, dos & don'ts, and budget, and your campaign goes live to vetted creators in minutes.", icon: Megaphone, tone: "orange" },
       { title: "Creators Apply With Content", body: "Receive ready-to-post videos with captions, attached to your brief — no endless pitches or DMs.", icon: FileVideo, tone: "cream" },
       { title: "Approve Content To Use", body: "Review, filter, and approve only the content that fits your brand. Reject the rest with a click.", icon: CheckCircle2, tone: "green" },
       { title: "Pay Per 1,000 Views", body: "Approved content goes live across socials. You pay on attributed performance — no impressions, no waste.", icon: TrendingUp, tone: "indigo" },

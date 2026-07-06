@@ -60,8 +60,8 @@ const content: Record<Audience, Variant> = {
         icon: Users,
       },
       {
-        title: "CSR & Youth Empowerment",
-        body: "Every campaign contributes to youth employment, skills development, and creator financial inclusion.",
+        title: "SDG Impact & Youth Empowerment",
+        body: "Every campaign contributes to UN Sustainable Development Goals (SDG 1: No Poverty and SDG 8: Decent Work & Economic Growth) by enabling youth employment, skills development, and financial inclusion through the creator economy.",
         icon: HeartHandshake,
       },
     ],
@@ -75,8 +75,8 @@ const content: Record<Audience, Variant> = {
     ),
     sub: "Monetize your content, access real brand opportunities, and earn based on the performance you actually drive.",
     featured: {
-      title: "Earn Based On Performance",
-      body: "The better your content performs, the more you earn. Your creativity is directly tied to your income — no flat fees, no caps.",
+      title: "No Follower Requirements",
+      body: "Whether you have 0 followers or millions, the better your content performs, the more you earn. Your income is directly tied to your creativity, no flat fees, no caps.",
       icon: TrendingUp,
     },
     cards: [
