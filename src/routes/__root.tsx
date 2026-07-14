@@ -1,5 +1,13 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { Outlet, Link, createRootRouteWithContext, useRouter, HeadContent, Scripts } from '@tanstack/react-router'
+import {
+    Outlet,
+    Link,
+    createRootRouteWithContext,
+    useRouter,
+    HeadContent,
+    Scripts,
+    redirect,
+} from '@tanstack/react-router'
 import { useEffect, type ReactNode } from 'react'
 
 import appCss from '../styles.css?url'
@@ -63,7 +71,19 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
     )
 }
 
+// Routes that are actually wired up. Everything else redirects to /coming-soon.
+// Add a path here as soon as its page is ready to go live.
+const ALLOWED_PATHS = ['/', '/coming-soon']
+
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
+    beforeLoad: ({ location }) => {
+        if (!ALLOWED_PATHS.includes(location.pathname)) {
+            throw redirect({
+                to: '/coming-soon',
+                search: { back: '/' },
+            })
+        }
+    },
     head: () => ({
         meta: [
             { charSet: 'utf-8' },
