@@ -23,7 +23,7 @@
 
   --font-sans: "Inter Tight", "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", monospace;
-
+  --color-gz : var(--goheza-surface);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -73,7 +73,7 @@
   --surface-warm: oklch(0.965 0.013 86.8);        /* same as base — no banding */
   --surface-stone: oklch(0.965 0.013 86.8);       /* same as base — no banding */
   --surface-elevated: oklch(0.990 0.007 97.3);    /* #FDFCF7 measured card white */
-
+  --goheza-suface :  oklch(0.941 0.022 72.4);
 
   /* Deep near-black ink — not pure black, measured #15181F */
   --ink: oklch(0.209 0.015 266.9);
@@ -393,14 +393,18 @@
    cards, shadows, spacing, and typography — never competing background tones.
    `section-dark` is preserved for the footer / dark CTA panels only. */
 
+@utility section-gx {
+    background-color: oklch(0.941 0.022 72.4);
+}
+
 @utility section-cream {
   background-color: var(--color-background);
 }
 @utility section-warm {
-  background-color: var(--color-background);
+  background-color: oklch(0.941 0.022 72.4);
 }
 @utility section-stone {
-  background-color: var(--color-background);
+  background-color: oklch(0.912 0.021 72.7);
 }
 @utility section-dark {
   /* Matches the reference's footer/CTA band: a near-black panel (#08090C)
